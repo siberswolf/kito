@@ -1,0 +1,41 @@
+<skeleton>
+    <bones>
+        <bone id="0" name="Main">
+            <position x="0" y="0" z="-0.1" />
+            <rotation angle="2.3561">
+                <axis x="1" y="-0" z="-0" />
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy />
+    <animations>
+        <animation name="Equip" length="0">
+            <tracks>
+                <track bone="Main">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="-0" y="-0" z="-0.1" />
+                            <rotate angle="2.35619">
+                                <axis x="-1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+            </tracks>
+        </animation>
+        <animation name="Floor" length="0">
+            <tracks>
+                <track bone="Main">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0.1" />
+                            <rotate angle="1.0472">
+                                <axis x="-1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+            </tracks>
+        </animation>
+    </animations>
+</skeleton>

@@ -1,0 +1,9 @@
+# Handle all files as binary as some files are needed as LF and others as CRLF
+
+* binary
+*.cpp diff
+*.h diff
+*.c diff
+*.vcxproj diff
+.gitattributes diff
+CHANGELOG diff
